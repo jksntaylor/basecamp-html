@@ -1,0 +1,106 @@
+html {
+    min-width: 830px;
+}
+
+.nav {
+    background-color: #707070;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 13px;
+}
+
+.navlist {
+    float: right;
+    padding-right: 20px;
+    padding-top: 4px;
+}
+
+.company {
+    display: inline;
+    font-size: 1.5em;
+    padding-left: 20px
+}
+
+.listitem {
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.jumbotron {
+    background-color: black;
+    color: #E9E05F;
+    font-family: sans-serif;
+    font-weight:600;
+    font-size: 50px;
+    text-align: center;
+    padding: 120px;
+}
+
+.blue-boxes {
+    height: 200px;
+    padding: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+.blue {
+    background-color: #A4FFD7;
+    height: 90%;
+    width: 25%;
+    display:inline-flex;
+    justify-content: space-between;
+    margin: 5px 30px;
+    border-radius: 15px; 
+}
+
+.yellow-boxes {
+    height: 200px;
+    padding: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+.yellow {
+    background-color: #FFC36C;
+    height: 90%;
+    width: 42%;
+    display: inline-flex;
+    align-content: center;
+    margin: 5px 20px;
+}
+
+.text, .image {
+    width: 40%;
+    display: inline-block
+}
+
+.image {
+    height: 120px;
+    width: auto;
+    float: right;
+    padding-right: 5em;
+    padding-left: auto;
+}
+
+.text {
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 5em;
+    padding-right: auto;
+}
+
+.text-image {
+    height: 120px;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.footer {
+    background-color: #3A3A56;
+    height: 5em;
+}
